@@ -25,11 +25,16 @@ body {
     display: flex;
     justify-content: center;
 }
+.slideshow-container__pic {
+    width: max-content;
+    
+}
 .slideshow-container__pic img{
+    
     margin: 0 auto;
-    width: 100%;
+    width: 70%;
     max-width: 1900px;
-    height: auto;
+    height: 100%;
 }
 .prev, .next {
     cursor: pointer;
