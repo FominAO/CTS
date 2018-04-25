@@ -27,7 +27,7 @@ body {
 }
 .slideshow-container__pic img{
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     max-width: 1900px;
     height: auto;
 }
@@ -56,10 +56,9 @@ body {
     color: white;
 }
 .slide-buttons {
-    position: relative;
-    top: -20px;
-    left: 50%;
-    margin-left: -16px;
+    position: absolute;
+    top: 90%;
+
 }
 .dot {
     height: 14px;
