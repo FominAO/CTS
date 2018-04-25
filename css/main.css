@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Regular.ttf);
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.slideshow-container {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 120px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.mySlides img{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1900px;
+    height: auto;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    padding: 16px;
+    color: #aaaaaa;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+.next {
+    right: 20px;
+    border-radius: 3px;
+}
+.prev {
+    left: 20px;
+    border-radius: 3px;
+    
+}
+.prev:hover, .next:hover {
+    background-color: #777777;
+    color: white;
+}
+.slide-buttons {
+    position: relative;
+    top: -20px;
+    left: 50%;
+    margin-left: -16px;
+}
+.dot {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #bbb;
+    display: inline-block;
+    margin: 0 auto;
+    transition: background-color 0.5s ease;
+}
+.dot:hover{
+    background-color: #777777;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {right: 0;}
+    to {right: 100%;}
+}
+@keyframes fade {
+    from {right: 0;}
+    to {right: 100%;}
+}
+.ch {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}

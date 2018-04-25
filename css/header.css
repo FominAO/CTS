@@ -1,0 +1,59 @@
+header {
+    width: 100%;
+    background-color: #7A0000;
+    height: 80px;
+    display: block;
+}
+.top-panel {
+    margin: 0 auto;
+    max-width: 960px;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 510px) {
+    .top-panel__logo {
+        display: none;
+    }
+    .top-panel__menu {
+        flex-grow: 1;
+    }
+}
+.top-panel__menu{
+    margin-left: 5px;
+    
+    cursor: pointer;
+}
+.top-panel__menu img {
+    float: left;
+}
+.top-panel__menu-text {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0 0 5px;
+}
+.top-panel__basket {
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.top-panel__logo {
+    flex-grow: 8;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    cursor: pointer; 
+}
+.top-panel__logo_white {
+    color: white;
+
+}
+.top-panel__logo_black {
+    color: black;
+  
+}

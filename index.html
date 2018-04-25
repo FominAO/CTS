@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="top-panel">
+            <span class="top-panel__menu" onclick="alert('Hello!')">
+                <img src="menu1.png" alt="">
+                <span class="top-panel__menu-text">
+                    <p>MENU</p>
+                </span>
+            </span>
+            <span class="top-panel__logo" onclick="alert('Hello, main!')">
+                <span class="top-panel__logo_white">Crusher's Team</span><span class="top-panel__logo_black"> Shop</span>
+            </span>
+            <span class="top-panel__basket">
+                <img src="kozin.png" alt="Корзина" height="40px" width="40px" onclick="alert('Hello, honey!')">
+            </span>
+        </div>
+    </header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="slide1_m.jpg" alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src="slide2_m.jpg" alt="">
+        </div>
+        <a class="prev" onclick="scrollSlide(-1)">&#10094</a>
+        <a class="next" onclick="scrollSlide(1)">&#10095</a>
+    </div>
+    <div class="slide-buttons">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <script src="js/slide.js"></script>
+</body>
+</html>
