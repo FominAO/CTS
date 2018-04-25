@@ -82,14 +82,10 @@ body {
 }
 
 @-webkit-keyframes fade {
-    from {right: 0;}
-    to {right: 100%;}
+    from {opacity: .4;}
+    to {opacity: 1;}
 }
 @keyframes fade {
-    from {right: 0;}
-    to {right: 100%;}
-}
-.ch {
     from {opacity: .4;}
     to {opacity: 1;}
 }
