@@ -26,18 +26,18 @@
         </div>
     </header>
     <div class="slideshow-container">
-        <div class="mySlides fade">
+        <div class="slideshow-container__pic fade">
             <img src="images/slide1_m.jpg" alt="">
         </div>
-        <div class="mySlides fade">
+        <div class="slideshow-container__pic fade">
             <img src="images/slide2_m.jpg" alt="">
         </div>
-        <a class="prev" onclick="scrollSlide(-1)">&#10094</a>
-        <a class="next" onclick="scrollSlide(1)">&#10095</a>
+        <a class="prev" onclick="slider.scrollSlide(-1)">&#10094</a>
+        <a class="next" onclick="slider.scrollSlide(1)">&#10095</a>
     </div>
     <div class="slide-buttons">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="slider.currentSlide(1)"></span>
+        <span class="dot" onclick="slider.currentSlide(2)"></span>
     </div>
     <script src="js/slide.js"></script>
 </body>

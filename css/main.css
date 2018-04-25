@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.mySlides img{
+.slideshow-container__pic img{
     margin: 0 auto;
     width: 90%;
     max-width: 1900px;
