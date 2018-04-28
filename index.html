@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="top-panel">
-            <span class="top-panel__menu" onclick="alert('Hello!')">
+            <span class="top-panel__menu" onclick="fall()">
                 <img src="images/menu1.png" alt="">
                 <span class="top-panel__menu-text">
                     <p>MENU</p>
@@ -23,9 +23,16 @@
             </span>
             <span class="top-panel__basket">
                 <img src="images/kozin.png" alt="Корзина" height="40px" width="40px" onclick="alert('Hello, honey!')">
-            </span>
+            </span>    
+            <div class="fall-menu">
+                <div class="menu-point">1</div>
+                <div class="menu-point">2</div>
+                <div class="menu-point">3</div>
+            </div>
         </div>
+        
     </header>
+    
     <div class="slideshow-container">
         <div class="slideshow-container__pic fade">
             <img src="images/slide1_m.jpg" alt="">
@@ -42,5 +49,6 @@
     </div>
     
     <script src="js/slide.js"></script>
+    <script src="js/fall-menu.js"></script>
 </body>
 </html>

@@ -3,6 +3,8 @@ header {
     background-color: #7A0000;
     height: 80px;
     display: block;
+    position: relative;
+    z-index: auto;   
 }
 .top-panel {
     margin: 0 auto;
@@ -18,11 +20,12 @@ header {
     }
     .top-panel__menu {
         flex-grow: 1;
+        
     }
 }
 .top-panel__menu{
     margin-left: 5px;
-    
+    position: relative;
     cursor: pointer;
 }
 .top-panel__menu img {
